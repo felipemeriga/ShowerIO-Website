@@ -1,0 +1,16 @@
+version: '2'
+services:
+    showerio-mongodb:
+        image: mongo:3.6.3
+        ports:
+            - "27017:27017"
+        command: mongos --configdb showerio-mongodb-config
+    showerio-mongodb-node:
+        build:
+            context: .
+            dockerfile: mongodb/MongoDB.Dockerfile
+        command: mongod --replSet rs1 --noprealloc --smallfiles
+    showerio-mongodb-config:
+        image: mongo:3.6.3
+        container_name: showerio-mongodb-config
+        command: mongod --noprealloc --smallfiles --configsvr --dbpath /data/db
