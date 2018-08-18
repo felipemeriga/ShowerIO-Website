@@ -72,6 +72,8 @@
         <sonar.sources>${project.basedir}/src/main/</sonar.sources>
         <sonar.surefire.reportsPath>${project.testresult.directory}/surefire-reports</sonar.surefire.reportsPath>
         <sonar.tests>${project.basedir}/src/test/</sonar.tests>
+        <!-- jhipster-needle-maven-add-dependency -->
+        <spring-social-facebook.version>1.1.2.RELEASE</spring-social-facebook.version>
 
         <!-- jhipster-needle-maven-property -->
     </properties>
@@ -285,7 +287,12 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-data</artifactId>
         </dependency>
-        <!-- jhipster-needle-maven-add-dependency -->
+        <!-- Add in <dependecies></dependecies> section -->
+        <dependency>
+            <groupId>org.springframework.social</groupId>
+            <artifactId>spring-social-facebook</artifactId>
+            <version>2.0.3.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>

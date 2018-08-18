@@ -131,5 +131,10 @@
         "idexists": "Novo(a) {{entityName}} não pode ter uma ID",
         "idnull": "Invalid ID"
     },
-    "footer": "Este é o seu rodapé"
+    "footer": {
+        "title": "&copy; ShowerIO 2018. Todos direitos Reservados.",
+        "privacy": "Privacidade",
+        "terms":"Termos",
+        "faq":"FAQ"
+    }
 }

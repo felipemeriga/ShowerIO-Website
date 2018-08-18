@@ -132,5 +132,10 @@
         "idexists": "A new {{ entityName }} cannot already have an ID",
         "idnull": "Invalid ID"
     },
-    "footer": "This is your footer"
+    "footer": {
+        "title": "&copy; ShowerIO 2018. All Rights Reserved.",
+        "privacy": "Privacy",
+        "terms":"Terms",
+        "faq":"FAQ"
+    }
 }
