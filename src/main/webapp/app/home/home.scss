@@ -39,4 +39,15 @@ Main page styles
     background: url('../../content/images/Blue-Pattern-Background.jpg') no-repeat;
 }
 
+.download {
+    position: relative;
+    padding: 150px 0;
+}
+
+.bg-primary {
+    background: #fdcc52;
+    background: -webkit-linear-gradient(#fdcc52, #fdc539);
+    background: linear-gradient(#fdcc52, #fdc539);
+}
+
 @import 'device-mockups/device-mockups.css';
