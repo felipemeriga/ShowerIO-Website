@@ -22,3 +22,21 @@ Main page styles
         background-size: contain;
     }
 }
+
+.device-container {
+    max-width: 275px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.masterhead {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    padding-top: 150px;
+    padding-bottom: 600px;
+    color: #fff;
+    background: url('../../content/images/Blue-Pattern-Background.jpg') no-repeat;
+}
+
+@import 'device-mockups/device-mockups.css';

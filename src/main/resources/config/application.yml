@@ -47,6 +47,10 @@ spring:
             enabled: false
     thymeleaf:
         mode: HTML
+    social:
+        facebook:
+            clientId: xxx
+            clientSecret: xxx
 
 server:
     servlet:
