@@ -41,13 +41,17 @@ Main page styles
 
 .download {
     position: relative;
-    padding: 150px 0;
+    padding: 250px 0;
 }
 
 .bg-primary {
     background: #fdcc52;
     background: -webkit-linear-gradient(#fdcc52, #fdc539);
     background: linear-gradient(#fdcc52, #fdc539);
+}
+
+.features {
+    margin-bottom: 100px;
 }
 
 @import 'device-mockups/device-mockups.css';
