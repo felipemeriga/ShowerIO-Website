@@ -1,5 +1,9 @@
 {
     "home": {
+        "introduction": {
+            "banner": "ShowerIO é um dispositivo capaz de controlar seu chuveiro através de um aplicativo, provendo conforto, sustentabilidade e economia!",
+            "button": "Como funciona ?"
+        },
         "title": "Bem vindo, Java Hipster!",
         "subtitle": "Esta é  a página principal",
         "logged": {
