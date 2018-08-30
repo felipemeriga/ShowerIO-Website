@@ -1,5 +1,9 @@
 {
     "home": {
+        "introduction": {
+            "banner": "ShowerIO is a device capable of controlling your shower through an app, provinding you confort, sustentability and saving money!",
+            "button": "How does it works ?"
+        },
         "title": "Welcome, Java Hipster!",
         "subtitle": "This is your homepage",
         "logged": {

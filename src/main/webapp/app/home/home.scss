@@ -41,7 +41,7 @@ Main page styles
 
 .download {
     position: relative;
-    padding: 250px 0;
+    padding: 150px 0;
 }
 
 .bg-primary {
@@ -50,8 +50,42 @@ Main page styles
     background: linear-gradient(#fdcc52, #fdc539);
 }
 
-.features {
-    margin-bottom: 100px;
+.my-auto {
+    margin-bottom: auto !important;
+    margin-top: auto !important;
+}
+
+.header-content {
+    margin-bottom: 0;
+    text-align: left;
+    max-width: 500px;
+}
+
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.btn-outline {
+    color: #fff;
+    border: 1px solid;
+    border-color: #fff;
+}
+
+.btnStart {
+    border-radius: 300px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.btn-xl {
+    font-size: 11px;
+    padding: 15px 45px;
 }
 
 @import 'device-mockups/device-mockups.css';
