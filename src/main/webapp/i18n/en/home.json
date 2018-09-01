@@ -4,9 +4,13 @@
             "banner": "ShowerIO is a device capable of controlling your shower through an app, provinding you confort, sustentability and saving money!",
             "button": "How does it works ?"
         },
-        "download":{
+        "download": {
             "bannerHigh": "Discover all the power of this system!",
             "bannerLow": "Our app is available on any mobile device! Install ShowerIO and download the app now!"
+        },
+        "contact": {
+            "we": "We",
+            "friends": "new friends!"
         },
         "title": "Welcome, Java Hipster!",
         "subtitle": "This is your homepage",

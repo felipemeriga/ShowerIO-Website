@@ -2,6 +2,9 @@
 Main page styles
 ========================================================================== */
 
+@import 'device-mockups/device-mockups.css';
+@import '~font-awesome/css/font-awesome.css';
+
 .hipster {
     display: inline-block;
     width: 347px;
@@ -147,6 +150,11 @@ section.contact ul.list-social li a {
     border-radius: 100%;
 }
 
+.contacts {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 section.contact ul.list-social li.social-twitter a {
     background-color: #1da1f2;
 }
@@ -170,5 +178,3 @@ section.contact ul.list-social li.social-google-plus a {
 section.contact ul.list-social li.social-google-plus a:hover {
     background-color: #d73925;
 }
-
-@import 'device-mockups/device-mockups.css';
